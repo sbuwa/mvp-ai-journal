@@ -50,7 +50,7 @@ export default function Test() {
 				Analyse
 			</button>
 			<h2 className="pt-12 text-2xl italic">Response</h2>
-			<p>{response}</p>
+			{response ? <p>{response}</p> : null}
 		</div>
 	);
 }
